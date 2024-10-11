@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Notas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de Disciplinas</h1>
+        <form id="gradeForm">
+            <label for="disciplina">Nome da Disciplina:</label>
+            <input type="text" id="disciplina" name="disciplina" required><br>
+
+            <label for="av1">Nota AV1:</label>
+            <input type="number" id="av1" name="av1" step="0.1" required><br>
+
+            <label for="av2">Nota AV2:</label>
+            <input type="number" id="av2" name="av2" step="0.1" required><br>
+
+            <label for="av3">Nota AV3:</label>
+            <input type="number" id="av3" name="av3" step="0.1" required><br>
+
+            <label for="av4">Nota AV4:</label>
+            <input type="number" id="av4" name="av4" step="0.1" required><br>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+        <a href="resultado.html">Ver Resultados</a>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

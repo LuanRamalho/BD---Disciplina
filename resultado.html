@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Resultados das Disciplinas</h1>
+        
+        <!-- Barra de busca -->
+        <input type="text" id="searchBar" placeholder="Buscar disciplina..." onkeyup="buscarDisciplina()">
+
+        <table id="resultTable">
+            <thead>
+                <tr>
+                    <th>Disciplina</th>
+                    <th>AV1</th>
+                    <th>AV2</th>
+                    <th>AV3</th>
+                    <th>AV4</th>
+                    <th>Média</th>
+                    <th>Situação</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Os resultados serão inseridos aqui -->
+            </tbody>
+        </table>
+
+        <a href="index.html">Cadastrar nova disciplina</a>
+    </div>
+
+    <script src="resultado.js"></script>
+</body>
+</html>
